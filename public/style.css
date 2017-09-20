@@ -1,0 +1,310 @@
+*
+{
+ /*border: dashed thin;*/
+}
+
+h2, h3 {
+  color: black;
+  background-color: grey;
+  text-align: center;
+  padding: 0em, 1em, 0em, 1em;
+}
+
+body
+{
+  width: 90%;  
+  margin: 0 auto;
+  /*background: linear-gradient(180deg, purple, white 50%);*/
+}
+
+.header
+{  
+  width: 100%;
+  height: 200px;
+  float: right;
+  padding-right: 4%;
+  border: purple solid 1px;
+ /* background: url("images/header.jpg") top center;
+  background-position: top center;
+  height: 200px;*/
+}
+
+.header .header-img
+{
+  height: 100%;
+  width: 104%;
+}
+
+#navigation
+{  
+  width: 100%;
+  float: right;
+  padding-right: 2%; 
+  font-family: Helvetica;
+}
+
+.maincontent
+{  
+  width: 100%;  
+  float: right;
+  padding: 2%;
+  border: purple solid 1px;
+  font-family: Helvetica;
+  background: linear-gradient(180deg, purple, white 50%);
+}
+
+.intro
+{
+  width: 100%;
+  background-color: rgba(57,85,91,0.2);
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+.footer
+{  
+  width: 100%;
+  clear: both;
+}
+
+.primary
+{  
+  width: 78%;  
+  float: left;  
+}
+
+.primary-alt
+{
+  width: 28%;
+  float: left;
+  margin-top: 1em;
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+.secondary
+{  
+  width: 20%;
+  float:right;
+}
+
+.secondary-alt
+{
+  width: 70%;
+  float: right;
+  margin-top: 1em;
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+.weekly-submission 
+{
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+
+  background-color: rgba(57,85,91,0.35);
+
+  text-align: center;
+
+  margin-bottom: 1em;
+}
+
+#col-1
+{
+  width: 30%;
+  height: 650px;
+  float: left;
+  margin-right: 2.75em;
+  margin-top: 1%;
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+#col-2
+{
+  width: 30%;
+  height: 650px;
+  float: left;
+  margin-top: 1%;
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+#col-3
+{
+  width: 30%;
+  height: 650px;
+  float: right;
+  margin-left: 2em;
+  margin-top: 1%;
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+}
+
+ul#menu li
+{
+  display: inline;
+  line-height: 2em;
+}
+
+ul#menu
+{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(57,85,91,0.35);
+  text-align: center;
+}
+
+#menu li a
+{
+  padding: .45em 0.5em .5em .5em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#menu li.current a
+{
+  background: purple;
+  color: white;
+}
+
+.align-center
+{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+#game
+{
+  height: 400px;
+  width: 650px;
+}
+
+/*
+.contest-pic
+{
+  height: 300px;
+  width: 435px;
+  text-align: center;
+}
+*/
+
+
+.video
+{
+  height: 181px; /*300px;*/
+  width: 50%; /*500px;*/
+  border: 0px;
+}
+
+ #gallerywrapper 
+ {
+  width: 100%;
+  height: 475px;
+  margin: 0 auto;
+  position: relative;
+  font-family: verdana, arial, sans-serif;
+ } 
+
+ #gallerywrapper #gallery 
+ {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%; /*475px;*/
+  width: 100%;/*640px;*/
+  overflow: hidden;
+  text-align: center;
+ } 
+
+ #gallerywrapper #gallery div 
+ {
+  width: 640px; 
+  height: 900px; 
+  padding-top: 10px; 
+  position: relative;
+ } 
+
+ #gallerywrapper #gallery div img 
+ {
+  clear: both; 
+  display: block; 
+  margin: 0 auto; 
+  border: 0;
+  height: 350px;
+  width: 500px;
+ } 
+
+ #gallerywrapper #gallery div h3 
+ {
+  padding: 10px 0 0 0; 
+  margin: 0; 
+  font-size: 18px;
+ } 
+
+ #gallerywrapper #gallery div p 
+ {
+  padding: 5px 0; 
+  margin: 0; 
+  font-size: 12px; 
+  line-height: 18px;
+ } 
+
+ #gallery .previous
+ { 
+  display: inline;
+  float: left;
+  margin-left: 80px;
+  text-decoration: none;
+ } 
+
+ #gallery .next
+ { 
+  display: inline;
+  float: right;
+  margin-right: 80px;
+  text-decoration: none;
+ }
+
+ #header-img
+ {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+ }
+
+ #main-pic-turnip-img
+ {
+  width: 60%;
+ }
+
+ #festival-img
+ {
+  width: 90%;
+ }
+
+  #news-img
+ {
+  height: 75%; /*300px;*/
+  width: 75%; /*500px;*/
+ }
+
+ footer
+ {
+  width: 100%;
+  background-color: rgba(57,85,91,0.35);
+  float: right;
+  padding-right: 2%;
+  padding-left: 2%;
+  height: 3em;
+  text-align: center;
+ }

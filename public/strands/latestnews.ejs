@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="../style.css" media="screen" />
+    <title>Latest News</title>
+  </head>
+  <body>
+    <%- partial("../includes/_header.ejs") %>
+
+    <nav id="navigation">  
+      <ul id="menu">  
+        <li><a href="/index.html">Home</a></li>  
+        <li><a href="history.html">Turnip History</a></li>  
+        <li><a href="turnipfacts.html">Facts</a></li>  
+        <li><a href="recipes.html">Recipes</a></li>  
+        <li class="current"><a href="latestnews.html">Latest News</a></li>
+        <li><a href="festival.html">Festival</a></li>  
+        <li><a href="contest.html">Monthly Contest</a></li>  
+        <li><a href="game.html">Video Game</a></li>  
+      </ul>  
+    </nav>
+
+    <main class="maincontent">
+      <primary class="primary">
+        <h2>
+          Turnips to the Rescue: Turnips used to ward off Devil-like Creature.
+        </h2>
+        <p>
+          Saint Sebastian is commonly depicted as being shot with arrows, but in one Spanish village it is turnips that are used as weapons on the saint's feast day. Every year, in Piornal, Caceres province, western Spain, villagers throw turnips at a man dressed up as a devil-like creature known as a 'Jarramplas'.	
+        </p>
+        <div class="align-center">
+          <img id="news-img" src="/images/devilmanspain.jpg" alt="devil man spain" />
+        </div>
+      	<p>
+      	  This year, the honour of being pelted with turnips fell to local man Armando Vicente Vicente, 30. He donned protective gear under a costume covered in multi-coloured ribbons and a horned fibreglass mask, and then made his way through the streets of the village playing a drum. Crowds chased him through the street, throwing turnips at him and trying to knock him off his feet. The protective gear must have come in handy, as thousands turnips are thrown at the Jarramplas during the annual festival.
+        </p>
+        <div class="align-center">
+          <img id="news-img" src="/images/throwingturnipsspain.jpg" alt= "throwing turnips" />
+        </div>
+      
+
+        <hr>
+
+        <h2>
+           Farmer Grows Giant Turnip in China
+        </h2>
+        <p>
+          A 33-pound turnip was harvested last week by a farmer in China’s Yunnan Province, according to local reports.
+        </p>
+        <div class="align-center">
+          <img id="news-img" src="/images/giantturnipchina.jpg" alt="giant turnip china" />
+        </div>
+        <p>
+          A man identified by Imagechina as “Mr. Li” claims the turnip as his own, and said the vegetable was grown without the help of any fertilizers. He was just as shocked by its gargantuan appearance as anyone would be.
+        </p>
+        <p>
+          The turnip reportedly weighs 33 pounds and is 4 feet long.<br>
+          The average turnip weighs anywhere from two to eight ounces, which means Li’s turnip is no ordinary root vegetable. While it’s overwhelming to imagine the dishes one could make with this amount of turnip, one thing is for sure: a certain first lady would be stoked about the prospect.
+        </p>
+        <p>
+          <em>The video below captures the efforts the Farmer took to pull this gigantic Turnip from the ground.</em>
+        </p>
+        <div class="align-center">
+          <iframe class="video" src="https://www.youtube.com/embed/BTs5XctxU54" allowfullscreen></iframe>
+        </div>
+      </primary>
+
+      <%- partial("../includes/_secondary.ejs") %>
+    </main>
+
+    <%- partial("../includes/_footer.ejs") %>
+
+  </body>
+</html>
